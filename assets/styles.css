@@ -223,11 +223,14 @@
       align-items: center;
   
   }
+  table{
+  border-collapse: collapse;
+  }
   .coln i {
       color: white;
   }
   
-  .container {
+  .containers {
       margin: 0;
       padding: 50px;
       background-color: white;
@@ -235,7 +238,7 @@
   
   }
   
-  .pokimg {
+  .pokimage {
       border-radius: 50%;
       height: 100px;
       width: 100px;
@@ -272,7 +275,7 @@
       color: #8a8a8a;
   }
   
-  .buy {
+  .buynow {
       background-color: #4992ca;
       color: white;
       padding: 10px;
@@ -288,12 +291,14 @@
       width: 200px;
   }
   
-  .card {
+  .cardone {
+
+    padding: 0;
+    padding-bottom: 20px;
+    border: 2px #F0F0F0 solid;
       background-color: white;
       width: 20%;
-      padding: 0;
-      padding-bottom: 20px;
-      border: 2px #F0F0F0 solid;
+     
   }
   
   .cardback {
@@ -301,7 +306,7 @@
       border-top: 20px #4992ca solid;
   }
   
-  .cards_container {
+  .cards_containers {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -315,7 +320,7 @@
   
   }
   
-  .card-sub-heading {
+  .card-sub-head {
     font-weight: 700;
     height: 45px;
     color: #3c3333;
@@ -328,7 +333,7 @@
     padding: 10px;
   }
   
-  .card-header {
+  .card-header-section {
     margin-bottom: 0;
     padding-left: 10px;
     border-bottom: 1px rgba(0, 0, 0, 0.125) solid;
@@ -345,7 +350,7 @@
   
   }
   
-  .gamimg {
+  .gameimg {
       width: 150px;
       height: 200px;
   }
@@ -364,7 +369,7 @@
       padding: 0 100px;
   }
   
-  .desimg {
+  .desimage {
       border-radius: 50%;
       height: 150px;
       width: 150px;
